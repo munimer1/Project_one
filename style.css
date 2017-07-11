@@ -155,6 +155,20 @@ div.footer ul {
   list-style:none;
 }
 
+<<<<<<< HEAD
+.pad-it {
+	margin: 0 0 30px;
+}
+
+.container {
+	width: 200px;
+	clear: left;
+}
+
+.container input {
+	width: 100%;
+	clear: right;
+=======
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; 
@@ -169,6 +183,7 @@ div.footer a{
   list-style:none;
 	text-decoration: none;
 	color:white;
+>>>>>>> 88934488949081fe21993648d29d9d462c55854c
 }
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }

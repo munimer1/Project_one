@@ -20,13 +20,17 @@ div.nav ul li {
 }
 
 @media screen and (max-width: 620px) {
+div.nav ul {
+	padding-bottom:10%;
+}
 	div.nav ul li {
-		width: 33%;
+		width: 20%;
+		font-size: 85%;
 	}
 }
 
-@media screen and (max-width: 520px) {
-div.header{padding-bottom:40%;}
+@media screen and (max-width: 540px) {
+div.header{padding-bottom:32%;}
 	div.nav ul li {
 		width: 50%;
 		font-size: 85%;

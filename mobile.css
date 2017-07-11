@@ -43,3 +43,12 @@ div.header{padding-bottom:40%;}
 	}
 body{color: red-text;}
 }
+.container {
+	width: 100px;
+	clear: both;
+}
+
+.container input {
+	width: 100%;
+	clear: both;
+}

@@ -121,7 +121,15 @@ div.footer {
 div.footer ul{
   list-style:none;
 }
-
+div.footer li{
+  list-style:none;
+	text-decoration: none;
+}
+div.footer a{
+  list-style:none;
+	text-decoration: none;
+	color:white;
+}
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }

@@ -20,6 +20,7 @@ div.nav ul li {
 }
 
 @media screen and (max-width: 620px) {
+div.nav{margin-top:10%;}
 div.nav ul {
 	padding-bottom:10%;
 }
@@ -29,7 +30,7 @@ div.nav ul {
 	}
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 510px) {
 div.header{padding-bottom:32%;}
 	div.nav ul li {
 		width: 50%;
@@ -59,5 +60,9 @@ body{color: red-text;}
 .pad-it{font-size: 80%;
 width:90%;
 margin-top:10%;}
-.background{width:100%;}
+.background{
+	background-image: url(images/mobile_background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;}
 }

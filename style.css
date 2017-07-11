@@ -47,7 +47,7 @@ body {
 }
 
 div.header {
-	background-color: #E9E9E9;
+	background-color:white;
 	padding: 40px 0;
 }
 
@@ -60,18 +60,20 @@ div.header {
 /* Navigation */
 
 div.nav {
-	background-color: #d4d4d4;
+	background-color:black;
 }
 
 div.nav ul {
 	margin: 0;
 	padding: 0;
+	color: #E9E9E9;
 }
 
 div.nav ul li {
 	list-style: none;
 	float: left;
 	font-size: 93%;
+	color: #E9E9E9;
 }
 
 div.nav ul li a:link,
@@ -79,7 +81,7 @@ div.nav ul li a:visited {
 	display: block;
 	padding: 10px 15px;
 	text-decoration: none;
-	color: #000;
+	color: #E9E9E9;;
 	border-right: 1px solid #bababa;
 }
 
